@@ -1,4 +1,8 @@
-﻿# 1.1.16
+﻿# 1.2.0
+
+- Changed the executable used for AssetRipper to the new custom one
+
+# 1.1.16
 
 - Added possible fix for long path names on Windows for File reads and writes
 
