@@ -16,7 +16,7 @@ namespace Nomnom.UnityProjectPatcher.AssetRipper {
     public class AssetRipperSettings : ScriptableObject {
 #if UNITY_EDITOR
         public string FolderPath => PatcherUtility.GetUserSettings().AssetRipperDownloadFolderPath;
-        public string ExePath => Path.Combine(FolderPath, "AssetRipper.Tools.SystemTester.exe");
+        public string ExePath => Path.Combine(FolderPath, "AssetRipper.Tools.Runner.exe");
         public string OutputFolderPath => PatcherUtility.GetUserSettings().AssetRipperExportFolderPath;
         public string ConfigPath => Path.Combine(FolderPath, "AssetRipper.Settings.json");
         public string OutputExportFolderPath => Path.Combine(OutputFolderPath, "ExportedProject");
